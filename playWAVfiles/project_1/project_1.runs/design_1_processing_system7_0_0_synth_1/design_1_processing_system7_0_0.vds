@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Mon May 16 18:43:21 2022
+# Process ID: 18832
+# Current directory: C:/Users/alexc/Documents/ECE530/playWAVfiles/project_1/project_1.runs/design_1_processing_system7_0_0_synth_1
+# Command line: vivado.exe -log design_1_processing_system7_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_processing_system7_0_0.tcl
+# Log file: C:/Users/alexc/Documents/ECE530/playWAVfiles/project_1/project_1.runs/design_1_processing_system7_0_0_synth_1/design_1_processing_system7_0_0.vds
+# Journal file: C:/Users/alexc/Documents/ECE530/playWAVfiles/project_1/project_1.runs/design_1_processing_system7_0_0_synth_1\vivado.jou
+# Running On: DESKTOP-3MDMTGQ, OS: Windows, CPU Frequency: 1800 MHz, CPU Physical cores: 4, Host memory: 17051 MB
+#-----------------------------------------------------------
+source design_1_processing_system7_0_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1418.621 ; gain = 0.000
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/alexc/Documents/ECE530/playWAVfiles/ip_repo/AXI_I2S2_3.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/alexc/Documents/ECE530/playWAVfiles/ip_repo/AXI-I2S2_2'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/alexc/Documents/ECE530/playWAVfiles/ip_repo/AXI_I2s_2.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/alexc/Documents/ECE530/playWAVfiles/ip_repo/AXI_I2s_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/alexc/Documents/ECE530/playWAVfiles/ip_repo/myip_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/alexc/Documents/ECE530/WAVips'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/vivado/2021.2/data/ip'.
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP design_1_processing_system7_0_0, cache-ID = c1f38a20fa4dca89.
+INFO: [Common 17-206] Exiting Vivado at Mon May 16 18:43:44 2022...

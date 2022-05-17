@@ -1,0 +1,62 @@
+
+*** Running vivado
+    with args -log design_1_AXI_I2S2_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_AXI_I2S2_0_0.tcl
+
+
+
+****** Vivado v2021.2 (64-bit)
+  **** SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+  **** IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+source design_1_AXI_I2S2_0_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 1418.883 ; gain = 0.000
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/alexc/Documents/ECE530/playWAVfiles/ip_repo/AXI_I2S2_3.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/alexc/Documents/ECE530/playWAVfiles/ip_repo/AXI-I2S2_2'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/alexc/Documents/ECE530/playWAVfiles/ip_repo/AXI_I2s_2.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/alexc/Documents/ECE530/playWAVfiles/ip_repo/AXI_I2s_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/alexc/Documents/ECE530/playWAVfiles/ip_repo/myip_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/alexc/Documents/ECE530/WAVips'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/vivado/2021.2/data/ip'.
+Command: synth_design -top design_1_AXI_I2S2_0_0 -part xc7z020clg400-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 11556
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1418.883 ; gain = 0.000
+---------------------------------------------------------------------------------
+ERROR: [Synth 8-1031] width is not declared [c:/Users/alexc/Documents/ECE530/playWAVfiles/project_1/project_1.gen/sources_1/bd/design_1/ipshared/42b5/hdl/AXI_I2S2_v3_0_S00_AXI.vhd:123]
+ERROR: [Synth 8-1031] width is not declared [c:/Users/alexc/Documents/ECE530/playWAVfiles/project_1/project_1.gen/sources_1/bd/design_1/ipshared/42b5/hdl/AXI_I2S2_v3_0_S00_AXI.vhd:125]
+ERROR: [Synth 8-1031] width is not declared [c:/Users/alexc/Documents/ECE530/playWAVfiles/project_1/project_1.gen/sources_1/bd/design_1/ipshared/42b5/hdl/AXI_I2S2_v3_0_S00_AXI.vhd:409]
+ERROR: [Synth 8-1031] nreset is not declared [c:/Users/alexc/Documents/ECE530/playWAVfiles/project_1/project_1.gen/sources_1/bd/design_1/ipshared/42b5/hdl/AXI_I2S2_v3_0_S00_AXI.vhd:412]
+ERROR: [Synth 8-1031] lrclk is not declared [c:/Users/alexc/Documents/ECE530/playWAVfiles/project_1/project_1.gen/sources_1/bd/design_1/ipshared/42b5/hdl/AXI_I2S2_v3_0_S00_AXI.vhd:415]
+ERROR: [Synth 8-1568] actual of formal out port lrclk cannot be an expression [c:/Users/alexc/Documents/ECE530/playWAVfiles/project_1/project_1.gen/sources_1/bd/design_1/ipshared/42b5/hdl/AXI_I2S2_v3_0_S00_AXI.vhd:415]
+ERROR: [Synth 8-1031] sclk is not declared [c:/Users/alexc/Documents/ECE530/playWAVfiles/project_1/project_1.gen/sources_1/bd/design_1/ipshared/42b5/hdl/AXI_I2S2_v3_0_S00_AXI.vhd:416]
+ERROR: [Synth 8-1568] actual of formal out port sclk cannot be an expression [c:/Users/alexc/Documents/ECE530/playWAVfiles/project_1/project_1.gen/sources_1/bd/design_1/ipshared/42b5/hdl/AXI_I2S2_v3_0_S00_AXI.vhd:416]
+ERROR: [Synth 8-1031] sd is not declared [c:/Users/alexc/Documents/ECE530/playWAVfiles/project_1/project_1.gen/sources_1/bd/design_1/ipshared/42b5/hdl/AXI_I2S2_v3_0_S00_AXI.vhd:417]
+ERROR: [Synth 8-1568] actual of formal out port sd cannot be an expression [c:/Users/alexc/Documents/ECE530/playWAVfiles/project_1/project_1.gen/sources_1/bd/design_1/ipshared/42b5/hdl/AXI_I2S2_v3_0_S00_AXI.vhd:417]
+WARNING: [Synth 8-1090] 'xpm_cdc_gray' is not compiled in library work [c:/Users/alexc/Documents/ECE530/playWAVfiles/project_1/project_1.gen/sources_1/bd/design_1/ipshared/42b5/hdl/AXI_I2S2_v3_0_S00_AXI.vhd:419]
+ERROR: [Synth 8-1031] width is not declared [c:/Users/alexc/Documents/ECE530/playWAVfiles/project_1/project_1.gen/sources_1/bd/design_1/ipshared/42b5/hdl/AXI_I2S2_v3_0_S00_AXI.vhd:422]
+ERROR: [Synth 8-1031] aclk is not declared [c:/Users/alexc/Documents/ECE530/playWAVfiles/project_1/project_1.gen/sources_1/bd/design_1/ipshared/42b5/hdl/AXI_I2S2_v3_0_S00_AXI.vhd:424]
+ERROR: [Synth 8-1031] mclk is not declared [c:/Users/alexc/Documents/ECE530/playWAVfiles/project_1/project_1.gen/sources_1/bd/design_1/ipshared/42b5/hdl/AXI_I2S2_v3_0_S00_AXI.vhd:426]
+WARNING: [Synth 8-1090] 'xpm_cdc_single' is not compiled in library work [c:/Users/alexc/Documents/ECE530/playWAVfiles/project_1/project_1.gen/sources_1/bd/design_1/ipshared/42b5/hdl/AXI_I2S2_v3_0_S00_AXI.vhd:429]
+ERROR: [Synth 8-1031] mclk is not declared [c:/Users/alexc/Documents/ECE530/playWAVfiles/project_1/project_1.gen/sources_1/bd/design_1/ipshared/42b5/hdl/AXI_I2S2_v3_0_S00_AXI.vhd:432]
+ERROR: [Synth 8-1031] aclk is not declared [c:/Users/alexc/Documents/ECE530/playWAVfiles/project_1/project_1.gen/sources_1/bd/design_1/ipshared/42b5/hdl/AXI_I2S2_v3_0_S00_AXI.vhd:434]
+ERROR: [Synth 8-1031] mclk is not declared [c:/Users/alexc/Documents/ECE530/playWAVfiles/project_1/project_1.gen/sources_1/bd/design_1/ipshared/42b5/hdl/AXI_I2S2_v3_0_S00_AXI.vhd:440]
+ERROR: [Synth 8-1560] actual  of formal s must be a signal [c:/Users/alexc/Documents/ECE530/playWAVfiles/project_1/project_1.gen/sources_1/bd/design_1/ipshared/42b5/hdl/AXI_I2S2_v3_0_S00_AXI.vhd:440]
+ERROR: [Synth 8-1031] ratio is not declared [c:/Users/alexc/Documents/ECE530/playWAVfiles/project_1/project_1.gen/sources_1/bd/design_1/ipshared/42b5/hdl/AXI_I2S2_v3_0_S00_AXI.vhd:441]
+ERROR: [Synth 8-1031] nreset is not declared [c:/Users/alexc/Documents/ECE530/playWAVfiles/project_1/project_1.gen/sources_1/bd/design_1/ipshared/42b5/hdl/AXI_I2S2_v3_0_S00_AXI.vhd:448]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 1418.883 ; gain = 0.000
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+INFO: [Common 17-83] Releasing license: Synthesis
+14 Infos, 2 Warnings, 0 Critical Warnings and 20 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Synthesis failed - please see the console or run log file for details
+INFO: [Common 17-206] Exiting Vivado at Mon May 16 18:44:18 2022...
